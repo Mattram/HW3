@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Longest Tweet{% endblock %}
+{% block content %}
+  <h1>Index</h1>
+  <p class="important">
+        The longest tweet is {{ longest_tweet.text }}<br><i>posted by {{longest_tweet.user_id}}</i> <br><br>
+  {% endblock %}
